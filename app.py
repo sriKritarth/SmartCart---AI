@@ -13,7 +13,6 @@ The app can either:
 from __future__ import annotations
 
 import io
-from pathlib import Path
 from typing import Dict, List, Tuple
 
 import numpy as np
@@ -78,7 +77,7 @@ st.markdown(
 # -----------------------------------------------------------------------------
 # Constants
 # -----------------------------------------------------------------------------
-DEFAULT_CSV_PATH = Path("smartcart_customers.csv")
+DEFAULT_CSV_PATH = "smartcart_customers.csv"
 REQUIRED_COLUMNS = {
     "ID",
     "Year_Birth",
