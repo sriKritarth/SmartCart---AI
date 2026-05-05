@@ -341,7 +341,7 @@ elif DEFAULT_CSV_PATH.exists():
     data_source_label = str(DEFAULT_CSV_PATH)
 else:
     st.info(
-        "Upload `smartcart_customers.csv` from the sidebar, or place it in the same folder as `app.py` and run the app again."
+        "Required data file not found. Please upload the CSV file from the sidebar or add it to the project directory and rerun the app."
     )
     st.stop()
 
