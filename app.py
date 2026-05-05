@@ -13,6 +13,7 @@ The app can either:
 from __future__ import annotations
 
 import io
+from pathlib import Path
 from typing import Dict, List, Tuple
 
 import numpy as np
@@ -77,7 +78,7 @@ st.markdown(
 # -----------------------------------------------------------------------------
 # Constants
 # -----------------------------------------------------------------------------
-DEFAULT_CSV_PATH = "smartcart_customers.csv"
+DEFAULT_CSV_PATH = Path("smartcart_customers.csv")
 REQUIRED_COLUMNS = {
     "ID",
     "Year_Birth",
@@ -340,7 +341,7 @@ elif DEFAULT_CSV_PATH.exists():
     data_source_label = str(DEFAULT_CSV_PATH)
 else:
     st.info(
-        "Required data file not found. Please upload the CSV file from the sidebar or add it to the project directory and rerun the app."
+        "Required data file not found. Please upload the CSV file from the sidebar."
     )
     st.stop()
 
