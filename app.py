@@ -1,10 +1,6 @@
 """
 SmartCart Customer Segmentation App
 -----------------------------------
-Streamlit app converted from the provided clustering notebook.
-
-How to run:
-    streamlit run app.py
 
 Expected CSV file:
     smartcart_customers.csv
