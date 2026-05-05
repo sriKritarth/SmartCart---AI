@@ -1,0 +1,14 @@
+# frontend library
+streamlit
+
+#Data-visualization
+matplotlib
+plotly
+seaborn
+#Data-preprocessing
+numpy 
+pandas 
+
+#ML-libraries
+scikit-learn 
+kneed
